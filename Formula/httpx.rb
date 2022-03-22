@@ -1,18 +1,18 @@
 class Httpx < Formula
     desc 'httpx - CLI to run HTTP file'
     homepage 'https://github.com/httpx-sh/httpx'
-    version '0.19.0'
+    version '0.20.0'
     license 'Apache-2.0'
   
     depends_on 'grpcurl'
   
     if OS.mac? && Hardware::CPU.intel?
-      url 'https://github.com/httpx-sh/httpx/releases/download/v0.19.0/httpx-0.19.0-x86_64-apple-darwin.tar'
-      sha256 '042f8180c53b5b3b1a50bf69318cbc392c801d0a8b935f7515e351d133c0787c'
+      url 'https://github.com/httpx-sh/httpx/releases/download/v0.20.0/httpx-0.20.0-x86_64-apple-darwin.tar'
+      sha256 '931e8f73762605092b0969f7e6843e8bb92cf96aec8e41284a507219e7301717'
     end
     if OS.mac? && Hardware::CPU.arm?
-      url 'https://github.com/httpx-sh/httpx/releases/download/v0.19.0/httpx-0.19.0-x86_64-apple-darwin.tar'
-      sha256 '042f8180c53b5b3b1a50bf69318cbc392c801d0a8b935f7515e351d133c0787c'
+      url 'https://github.com/httpx-sh/httpx/releases/download/v0.20.0/httpx-0.20.0-x86_64-apple-darwin.tar'
+      sha256 '931e8f73762605092b0969f7e6843e8bb92cf96aec8e41284a507219e7301717'
     end
   
     def install
