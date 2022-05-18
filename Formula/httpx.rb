@@ -1,7 +1,7 @@
 class Httpx < Formula
     desc 'httpx - CLI to run HTTP file'
     homepage 'https://github.com/httpx-sh/httpx'
-    version '0.31.1'
+    version '0.32.0'
     license 'Apache-2.0'
   
     depends_on 'grpcurl'
