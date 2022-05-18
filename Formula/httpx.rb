@@ -7,12 +7,12 @@ class Httpx < Formula
     depends_on 'grpcurl'
   
     if OS.mac? && Hardware::CPU.intel?
-      url 'https://github.com/servicex-sh/httpx/releases/download/v0.31.1/httpx-0.31.1-x86_64-apple-darwin.tar'
-      sha256 '5d13976339954c5a8326e572b6300d04f27e86cb057f57a17eb7219ec896dcd8'
+      url 'https://github.com/servicex-sh/httpx/releases/download/v0.32.0/httpx-0.32.0-x86_64-apple-darwin.tar'
+      sha256 'cb696e5a7e86eb2117be6bd21c8b31d53e5090159b35573b0a804db00cabdfcf'
     end
     if OS.mac? && Hardware::CPU.arm?
-      url 'https://github.com/servicex-sh/httpx/releases/download/v0.31.1/httpx-0.31.1-x86_64-apple-darwin.tar'
-      sha256 '5d13976339954c5a8326e572b6300d04f27e86cb057f57a17eb7219ec896dcd8'
+      url 'https://github.com/servicex-sh/httpx/releases/download/v0.32.0/httpx-0.32.0-x86_64-apple-darwin.tar'
+      sha256 'cb696e5a7e86eb2117be6bd21c8b31d53e5090159b35573b0a804db00cabdfcf'
     end
   
     def install
