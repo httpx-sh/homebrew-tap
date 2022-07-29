@@ -7,9 +7,7 @@
 brew install https://raw.githubusercontent.com/servicex-sh/homebrew-tap/master/Formula/httpx.rb
 ```
 
-If you are using macOS Catalina or later you may need to remove the quarantine attribute from the bits before you can use the httpx binaries.
-
-To do this, run the following:
+If you are using macOS Catalina or later you may need to remove the quarantine attribute from the bits before you can use the httpx binaries. To do this, run the following:
 
 ```
 $ sudo xattr -r -d com.apple.quarantine path/to/httpx/folder/
