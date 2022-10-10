@@ -1,7 +1,7 @@
 # Homebrew Formula
 
 ## How do I install these formulae?
-`brew install servicex-sh/tap/httpx`
+`brew tap servicex-sh/tap` then `brew install --no-quarantine servicex-sh/tap/httpx`
 
 ```
 brew install https://raw.githubusercontent.com/servicex-sh/homebrew-tap/master/Formula/httpx.rb
