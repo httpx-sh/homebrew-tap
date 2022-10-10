@@ -9,6 +9,13 @@ brew install https://raw.githubusercontent.com/servicex-sh/homebrew-tap/master/F
 
 If you are using macOS Catalina or later you may need to remove the quarantine attribute from the bits before you can use the httpx binaries. To do this, run the following:
 
+
+```
+$ brew install --no-quarantine servicex-sh/tap/httpx
+$ brew reinstall --no-quarantine servicex-sh/tap/httpx
+```
+or 
+
 ```
 $ sudo xattr -r -d com.apple.quarantine path/to/httpx/folder/
 ```
