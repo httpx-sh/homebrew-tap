@@ -17,7 +17,7 @@ $ brew reinstall --no-quarantine servicex-sh/tap/httpx
 or 
 
 ```
-$ sudo xattr -r -d com.apple.quarantine path/to/httpx/folder/
+$ sudo xattr -r -d com.apple.quarantine $(readlink -f $(brew --prefix httpx))/bin/httpx
 ```
 
 ## Documentation
